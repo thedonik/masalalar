@@ -47,11 +47,11 @@ testJackpot(["SS", "SS", "SS", "Ss"]);
 /////////3 - MASALA /////////////
 
 function toArray(obj) {
-    let answer3 = [];
+    let num = [];
     for (let key in obj) {
-        answer3.push([key, obj[key]]);
+        num.push([key, obj[key]]);
     }
-    return console.log(answer3);
+    return console.log(num);
 }
 
 toArray({ a: 1, b: 2 }); //➞ [["a", 1], ["b", 2]]
